@@ -1,0 +1,186 @@
+#displaytag {
+	width: 100%;
+	font-family: 'Verdana';
+	color: #202020;
+	text-align: center;
+}
+
+#displaytag table {
+	border: 1px solid #666;
+	overflow: hidden;
+	border-radius: 0.5em;
+	width: 100%;
+	font-size: 10px;
+	font-family: 'Verdana';
+	color: #202020;
+}
+
+#displaytag th,#displaytag td {
+	padding: 2px 4px 2px 4px !important;
+	text-align: center;
+	vertical-align: top;
+}
+
+#displaytag th a,#displaytag th a:visited {
+	color: black;
+}
+
+#displaytag th a:hover {
+	text-decoration: none;
+	background: #B2CFEE;
+	color: black;
+}
+
+#displaytag th {
+	background: #D4DDE6;
+}
+
+#displaytag th.sorted a,#displaytag th.sortable a {
+	background-position: right;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+
+#displaytag th.sortable a {
+	background-image: url(../img/arrow_off.png);
+}
+
+#displaytag th.order1 a {
+	background-image: url(../img/arrow_down.png);
+}
+
+#displaytag th.order2 a {
+	background-image: url(../img/arrow_up.png);
+}
+
+#displaytag tr.odd {
+	background-color: #EAF2F9;
+}
+
+#displaytag tr.tableRowEven,#displaytag tr.even {
+	background-color: #FBFBFB;
+}
+
+#displaytag div.exportlinks {
+	font-size: 12px;
+	background-color: #EBEBEB;
+	border: 1px solid #E3E3E3;
+	padding: 2px 4px 2px 4px;
+	margin: 2px 0 10px 0;
+	width: 99%;
+}
+
+#displaytag span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+	background: no-repeat;
+}
+
+#displaytag div.exportlinks a,#displaytag div.exportlinks a:visited {
+	color: #717171;
+}
+
+#displaytag div.exportlinks a:hover {
+	color: #2080D0;
+}
+
+#displaytag span.excel {
+	background-image: url(../img/ico_file_excel.png);
+}
+
+#displaytag span.csv {
+	background-image: url(../img/ico_file_csv.png);
+}
+
+#displaytag span.xml {
+	background-image: url(../img/ico_file_xml.png);
+}
+
+#displaytag span.pdf {
+	background-image: url(../img/ico_file_pdf.png);
+}
+
+#displaytag span.rtf {
+	background-image: url(../img/ico_file_rtf.png);
+}
+
+#displaytag span.pagebanner {
+	background-color: #EBEBEB;
+	border-left: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;
+	border-top: 1px solid #E3E3E3;
+	padding: 2px 4px 2px 4px;
+	width: 99%;
+	display: block;
+	font-size: 12px;
+}
+
+#displaytag div.pagebanner {
+	background-color: #EBEBEB;
+	border-left: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;
+	border-top: 1px solid #E3E3E3;
+	padding: 2px 4px 2px 4px;
+	width: 99%;
+	font-size: 12px;
+}
+
+#displaytag span.pagelinks {
+	background-color: #EBEBEB;
+	border-left: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;
+	border-bottom: 1px solid #E3E3E3;
+	padding: 2px 4px 2px 4px;
+	width: 99%;
+	display: block;
+	font-size: 14px;
+}
+
+#displaytag span.pagelinks a,#displaytag span.pagelinks a:visited {
+	color: #717171;
+}
+
+#displaytag span.pagelinks a:hover {
+	color: #2080D0;
+}
+
+#displaytag .group-1 {
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-top: 1px solid black;
+}
+
+#displaytag .group-2 {
+	font-style: italic;
+	border-top: 1px solid black;
+}
+
+#displaytag .subtotal-sum,.grandtotal-sum {
+	font-weight: bold;
+	text-align: right;
+}
+
+#displaytag .subtotal-header {
+	padding-bottom: 0px;
+	border-top: 1px solid white;
+}
+
+#displaytag .subtotal-label,.grandtotal-label {
+	border-top: 1px solid white;
+	font-weight: bold;
+}
+
+#displaytag .grouped-table tr.even {
+	background-color: #fff;
+}
+
+#displaytag .grouped-table tr.odd {
+	background-color: #fff;
+}
+
+#displaytag .grandtotal-row {
+	border-top: 2px solid black;
+}
