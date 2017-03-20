@@ -58,11 +58,4 @@ public class AudioController {
 		mview.addObject("mensajesList", lista);
 		return mview;
 	}
-
-	@RequestMapping(value = "/nerd")
-	public @ResponseBody
-	String nerd(HttpServletResponse response) {
-		return "<div><a>Nerd!!!! (^_^)</a></div>";
-	}
-
 }
