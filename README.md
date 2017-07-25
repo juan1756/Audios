@@ -1,4 +1,6 @@
 # Audios
+|Campo         |Definición                 |Obligatorio(SI/NO)                     |Validación                                 |Ejemplo                                                               |
+|:----------------|:--------------------|:-------------------------------|:-------------------------------------|:---------------------------------------------------------------------|
 |user_id|		usuario que esta haciendo uso del sitio (se utiliza para tokenizacion)|		Condicional|		Sin validacion|		"user_id: ""marcos"","|
 |site_transaction_id|		nro de operacion|		SI|		Alfanumerico de hasta 39 caracteres|		"site_transaction_id: ""prueba 1"","|
 |site_id|		Site relacionado a otro site, este mismo no requiere del uso de la apikey ya que para el pago se utiliza la apikey del site al que se encuentra asociado.|		NO|		Se debe encontrar configurado en la tabla site_merchant como merchant_id del site_id|		"site_id: ""28464385"""|
